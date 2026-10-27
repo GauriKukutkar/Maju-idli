@@ -1,0 +1,62 @@
+@import "tailwindcss";
+
+/* ==========================
+   Majo Idli Design System
+========================== */
+
+:root {
+  /* Brand Colors */
+  --primary: #7A2E1F;
+  --secondary: #C58A2A;
+  --accent: #3D6B35;
+
+  /* Neutrals */
+  --background: #FFF8F0;
+  --surface: #FFFFFF;
+
+  --text: #2D2A26;
+  --muted: #77716B;
+
+  --border: #E8DED2;
+
+  /* Layout */
+  --container: 1280px;
+
+  /* Radius */
+  --radius: 18px;
+
+  /* Shadow */
+  --shadow:
+    0 12px 35px rgba(0,0,0,.08);
+}
+
+/* Base */
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background: var(--background);
+  color: var(--text);
+  font-family: "Poppins", sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button {
+  cursor: pointer;
+}
