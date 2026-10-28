@@ -840,7 +840,7 @@ export default function Gallery() {
         ========================================= */}
 
         <motion.a
-          href="#"
+          href="https://www.instagram.com/majuidli/"
           target="_blank"
           rel="noopener noreferrer"
           whileHover={{
@@ -906,7 +906,7 @@ export default function Gallery() {
         ========================================= */}
 
         <motion.a
-          href="#"
+          href="https://www.facebook.com/people/Maju-Idli/61572115364506/"
           target="_blank"
           rel="noopener noreferrer"
           whileHover={{

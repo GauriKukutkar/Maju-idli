@@ -20,7 +20,7 @@ const branches = [
     shortLocation: "Wadi T-Point, Amravati Road",
     address:
       "House No. 37, Shankar Bhavan, Wadi T Point, Amravati Road, Wadi, Nagpur (Rural), Nagpur - 440023",
-    mapLink: "#",
+    mapLink: "https://share.google/VsjRkl566fTpTvfKy",
     newBranch: false,
   },
 
@@ -30,7 +30,7 @@ const branches = [
     shortLocation: "Hingna Road, Nagpur",
     address:
       "Food Kort No. 1, Plot No. 07, Royal Rudra Apartment, Vasudev Nagar, Hingna Road, Nagpur - 440016",
-    mapLink: "#",
+    mapLink: "https://share.google/u0Dm70lGzqwbPOhac",
     newBranch: false,
   },
 
@@ -40,7 +40,7 @@ const branches = [
     shortLocation: "Rajiv Nagar Bus Stop, Hingna Road",
     address:
       "Shop No. 2, 3, Rajiv Nagar Bus Stop, Near HDFC Bank ATM, Beside Chaihub, Hingna Road, Rajiv Nagar, Nagpur - 441110",
-    mapLink: "#",
+    mapLink: "https://share.google/ADsZ16EcYqMxf0VeQ",
     newBranch: false,
   },
 
@@ -50,7 +50,7 @@ const branches = [
     shortLocation: "Zenda Chowk, Dharampeth",
     address:
       "Shop No. 02, Plot No. 799, Beside LOC Cafe, Zenda Chowk, Dharampeth, Nagpur",
-    mapLink: "#",
+    mapLink: "https://share.google/T9iC2UJioMbVX63OA",
     newBranch: true,
   },
 ];
@@ -233,7 +233,7 @@ export default function Branches() {
                 <div className="mt-7 flex flex-wrap gap-4">
 
                   <a
-                    href="#"
+                    href="https://share.google/T9iC2UJioMbVX63OA"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="inline-flex items-center gap-2 rounded-full bg-[#F36A16] px-6 py-3.5 text-sm font-semibold text-white transition hover:-translate-y-1 hover:bg-white hover:text-[#0B6B37]"

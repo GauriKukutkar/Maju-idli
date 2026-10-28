@@ -13,6 +13,8 @@ import gallery4 from "../assets/gallery4.png";
 import gallery5 from "../assets/gallery5.png";
 import gallery6 from "../assets/gallery6.png";
 
+import FranchiseSection from "../Components/FranchiseSection";
+import UpcomingBranches from "../Components/UpcomingBranches";
 
 
 export default function Home() {
@@ -598,6 +600,7 @@ const dishes = [
 
 </section>
 
+
 {/* ================= NEW BRANCH ================= */}
 
 <section className="bg-white py-20">
@@ -705,6 +708,10 @@ const dishes = [
   </div>
 
 </section>
+
+<UpcomingBranches />
+
+<FranchiseSection />
 
 {/* ================= CTA ================= */}
 

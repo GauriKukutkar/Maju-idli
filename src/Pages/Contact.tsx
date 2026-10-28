@@ -14,6 +14,8 @@ import {
   UtensilsCrossed,
 } from "lucide-react";
 
+import FranchiseSection from "../Components/FranchiseSection";
+
 
 /* ==================================================
    BRANCH DATA
@@ -682,6 +684,8 @@ export default function Contact() {
         </div>
 
       </section>
+
+      <FranchiseSection />
 
 
 

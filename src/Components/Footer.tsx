@@ -14,7 +14,7 @@ import {
   FaFacebookF,
   FaInstagram,
   FaYoutube,
-  FaLinkedinIn,
+  // FaLinkedinIn,
   FaGoogle,
 } from "react-icons/fa";
 
@@ -162,7 +162,7 @@ export default function Footer() {
                 {/* INSTAGRAM */}
 
                 <a
-                  href="#"
+                  href="https://www.instagram.com/majuidli/"
                   target="_blank"
                   rel="noopener noreferrer"
                   aria-label="Maju Idli Instagram"
@@ -178,7 +178,7 @@ export default function Footer() {
                 {/* FACEBOOK */}
 
                 <a
-                  href="#"
+                  href="https://www.facebook.com/people/Maju-Idli/61572115364506/"
                   target="_blank"
                   rel="noopener noreferrer"
                   aria-label="Maju Idli Facebook"
@@ -194,7 +194,7 @@ export default function Footer() {
                 {/* YOUTUBE */}
 
                 <a
-                  href="#"
+                  href="https://www.youtube.com/@MajuIdli"
                   target="_blank"
                   rel="noopener noreferrer"
                   aria-label="Maju Idli YouTube"
@@ -209,7 +209,7 @@ export default function Footer() {
 
                 {/* LINKEDIN */}
 
-                <a
+                {/* <a
                   href="#"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -220,13 +220,13 @@ export default function Footer() {
 
                   <FaLinkedinIn size={16} />
 
-                </a>
+                </a> */}
 
 
                 {/* GOOGLE BUSINESS */}
 
                 <a
-                  href="#"
+                  href="https://www.google.com/search?q=maju+idli+branches+in+nagpur&rlz=1C1CHBD_en-GBIN1167IN1169&oq=maju+idli+branches+in+na&gs_lcrp=EgZjaHJvbWUqBwgBECEYoAEyBggAEEUYOTIHCAEQIRigATIHCAIQIRigATIHCAMQIRigATIHCAQQIRigATIHCAUQIRigATIHCAYQIRiPAjIHCAcQIRiPAjIHCAgQIRiPAtIBCTgxNjZqMGoxNagCCLACAfEFtCHoKfQJC2c&sourceid=chrome&source=chrome.rb&ie=UTF-8"
                   target="_blank"
                   rel="noopener noreferrer"
                   aria-label="Maju Idli Google Business Profile"
@@ -339,7 +339,7 @@ export default function Footer() {
               {/* PHONE */}
 
               <a
-                href="tel:+919999999999"
+                href="tel:+918624015408"
                 className="group flex items-center gap-3"
               >
 
@@ -356,7 +356,7 @@ export default function Footer() {
                   </p>
 
                   <p className="mt-1 text-sm font-medium text-white">
-                    +91 99999 99999
+                    +91 86240 15408
                   </p>
 
                 </div>
@@ -367,7 +367,7 @@ export default function Footer() {
               {/* EMAIL */}
 
               <a
-                href="mailto:info@majuidli.com"
+                href="mailto:maju.idli@majuventurs.com"
                 className="group flex items-center gap-3"
               >
 
@@ -384,7 +384,7 @@ export default function Footer() {
                   </p>
 
                   <p className="mt-1 break-all text-sm font-medium text-white">
-                    info@majuidli.com
+                          maju.idli@majuventurs.com
                   </p>
 
                 </div>

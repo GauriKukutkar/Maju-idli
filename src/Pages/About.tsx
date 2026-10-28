@@ -16,6 +16,8 @@ import {
 import fssaiLogo from "../assets/FSSAI_Logo.png";
 
 import aboutImage from "../assets/gallery6.png";
+import UpcomingBranches from "../Components/UpcomingBranches";
+import FranchiseSection from "../Components/FranchiseSection";
 
 export default function About() {
   const values = [
@@ -561,6 +563,9 @@ export default function About() {
 
 </section>
 
+<UpcomingBranches />
+
+<FranchiseSection />
 
       {/* ==================================================
           FINAL CTA
